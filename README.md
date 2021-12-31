@@ -32,7 +32,7 @@ polarimeter.connectDevice()
 # take measurements
 
 '''Initialize the class instance'''
-ltm = PolarimeterLTM(polarimeter.handler, None, 0, 30, 0.05)
+ltm = PolarimeterLTM(polarimeter.handler, None, 0, 30, 0.05) # continuous measure time 30s with 0.05 interval
 
 # take one measurement
 ltm.takeOneMeasurement()
